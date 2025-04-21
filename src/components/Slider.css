@@ -17,7 +17,14 @@
 .inactive{
     display: none;
 }
-
+.arrows,.dots{
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.slider:hover .arrows,
+.slider:hover .dots{
+  opacity: 1;
+}
   
 
 .slider-wrapper {
